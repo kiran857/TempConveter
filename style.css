@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    left: 30%;
+    top:20%
+}
+.displayrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+.result{
+    margin: 20px;
+}
+button{
+    margin-left: 30%;
+    padding:10px 40px;
+    background-color: green;
+    color:white
+
+}
+button:hover{
+    cursor: pointer;
+
+}
+#tempinput{
+    border: none;
+    border-bottom: 2px solid grey;
+    outline-style: none;
+}
+#result{
+    outline-style: none;
+    border: none;
+    border-bottom: 2px solid grey;
+}
